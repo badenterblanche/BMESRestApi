@@ -4,11 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BMESRestApi.Messages.Request.Brand
+namespace BMESRestApi.Messages.Response.Brand
 {
-    public class UpdateCategoryRequest
+    public class DeleteCategoryRequest: ResponseBase
     {
-        public int BrandID { get; set; }
         public BrandDTO locBrandDTO { get; set; }
     }
 }

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BMESRestApi.Messages.Request.Brand
 {
-    public class GetBrandByIDRequest
+    public class GetCategoryByIDRequest
     {
         public int BrandID { get; set; }
     }

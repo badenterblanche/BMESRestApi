@@ -4,11 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BMESRestApi.Messages.Request.Brand
+namespace BMESRestApi.Messages.Response.Product
 {
-    public class CreateCategoryRequest
+    public class UpdateProductResponse: ResponseBase
     {
-        BrandDTO locBrandDTO {get; set;}
-
     }
 }

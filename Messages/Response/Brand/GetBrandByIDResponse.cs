@@ -1,14 +1,14 @@
 ﻿using BMESRestApi.Messages.DataTransferObjects.Product;
+using Microsoft.AspNetCore.Builder;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BMESRestApi.Messages.Request.Brand
+namespace BMESRestApi.Messages.Response.Brand
 {
-    public class UpdateCategoryRequest
+    public class GetBrandByIDResponse: ResponseBase
     {
-        public int BrandID { get; set; }
         public BrandDTO locBrandDTO { get; set; }
     }
 }
