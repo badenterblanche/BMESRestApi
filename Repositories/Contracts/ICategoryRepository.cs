@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BMESRestApi.Repositories.Contracts
 {
-    interface ICategoryRepository : IBaseRepository<Category>
+    public interface ICategoryRepository : IBaseRepository<Category>
     {
     }
 }

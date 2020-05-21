@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BMESRestApi.Repositories.Contracts
 {
-    interface IBrandRepository : IBaseRepository<Brand>
+    public interface IBrandRepository : IBaseRepository<Brand>
     {
     }
 }

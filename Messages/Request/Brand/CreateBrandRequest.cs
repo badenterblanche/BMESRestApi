@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BMESRestApi.Messages.Request.Brand
 {
-    public class CreateCategoryRequest
+    public class CreateBrandRequest
     {
-        BrandDTO locBrandDTO {get; set;}
+        public BrandDTO locBrandDTO {get; set;}
 
     }
 }
