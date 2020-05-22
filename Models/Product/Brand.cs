@@ -16,5 +16,7 @@ namespace BMESRestApi.Models
         public string Description { get; set; }
         public string MetaKeyWords { get; set; }
         public BrandStatus BrandStatus { get; set; }
+        public string MetaDescription { get; set; }
+        public string MetaKeywords { get; set; }
     }
 }

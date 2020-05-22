@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BMESRestApi.Services.Implementations
+namespace BMESRestApi.Services
 {
-    public class ProductService : IProductService
+    public interface ICatalogueInterface
     {
     }
 }

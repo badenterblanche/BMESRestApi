@@ -1,14 +1,8 @@
-﻿using BMESRestApi.Messages.DataTransferObjects.Product;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace BMESRestApi.Messages.Request.Category
+﻿namespace BMESRestApi.Messages.Request.Category
 {
-    public class CreateProductRequest
+    using DataTransferObjects.Product;
+    public class CreateCategoryRequest
     {
-        CategoryDTO locCategoryDTO {get; set;}
-
+        public CategoryDTO propCategoryDTO { get; set; }
     }
 }

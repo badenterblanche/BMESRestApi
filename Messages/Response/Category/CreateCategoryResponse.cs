@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BMESRestApi.Messages.Response.Category
 {
-    public class CreateProductResponse : ResponseBase
+    public class CreateCategoryResponse : ResponseBase
     {
         public CategoryDTO locCategoryDTO { get; set; }
     }

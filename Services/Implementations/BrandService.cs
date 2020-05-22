@@ -26,7 +26,7 @@ namespace BMESRestApi.Services.Implementations
         {
             var varBrand = _MessageMapper.MapToBrand(parBrandRequest.locBrandDTO);
             _BrandRepository.Save();
-            var varBrandDTO = _MessageMapper.MapToBrandDTO(varBrand);
+            var varBrandDTO = _MessageMapper.MapToBrandDto(varBrand);
 
             CreateBrandResponse locCreateBrandResponse = new CreateBrandResponse
             {
